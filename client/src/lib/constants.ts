@@ -103,7 +103,7 @@ export const FOUNDERS = [
   {
     name: "Chris",
     title: "Co-Founder & CTO",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+    image: "/chris-photo.jpg",
     bio: "A technology innovator with deep expertise in hardware integration and software development, Chris ensures that Sonny Harbor Media delivers cutting-edge solutions that are both powerful and reliable. His technical leadership drives the company's commitment to excellence in every installation.",
     social: {
       linkedin: "#",

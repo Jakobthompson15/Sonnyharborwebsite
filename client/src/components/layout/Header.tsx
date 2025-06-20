@@ -29,7 +29,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center space-x-3">
             <img 
-              src="/attached_assets/Logos from Jakob Thompson_1750429186304.png" 
+              src="/Logos from Jakob Thompson_1750429186304.png" 
               alt="Sonny Harbor Media Logo"
               className="h-10 w-auto"
             />

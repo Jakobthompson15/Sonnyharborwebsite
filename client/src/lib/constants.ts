@@ -93,7 +93,7 @@ export const FOUNDERS = [
   {
     name: "Ryan Kesler",
     title: "Co-Founder & CEO",
-    image: "/attached_assets/IMG_8271_1750431931719.JPG",
+    image: "/IMG_8271_1750431931719.JPG",
     bio: "With over 15 years in digital marketing and technology solutions, Ryan brings strategic vision and industry expertise to drive innovation in the digital signage space. His passion for connecting brands with audiences through compelling visual experiences has shaped Sonny Harbor Media's customer-centric approach.",
     social: {
       linkedin: "#",
@@ -117,19 +117,19 @@ export const PORTFOLIO_ITEMS = [
     title: "Premium Retail Chain",
     description: "Enhanced customer experience with interactive product displays across 12 locations.",
     metric: "+35% Engagement Rate",
-    image: "/attached_assets/image_1750429500362.png"
+    image: "/image_1750429500362.png"
   },
   {
     title: "Corporate Event Center",
     description: "Massive video wall installation for high-impact presentations and conferences.",
     metric: "98% Client Satisfaction",
-    image: "/attached_assets/image_1750429475481.png"
+    image: "/image_1750429475481.png"
   },
   {
     title: "Transportation Hub",
     description: "Comprehensive wayfinding and advertising network serving thousands daily.",
     metric: "50K+ Daily Views",
-    image: "/attached_assets/image_1750429488402.png"
+    image: "/image_1750429488402.png"
   }
 ];
 

@@ -44,7 +44,7 @@ export default function Hero() {
           </div>
           <div className="relative">
             <img
-              src="/attached_assets/image_1750429488402.png"
+              src="/image_1750429488402.png"
               alt="Premium digital signage display showing luxury hotel content"
               className="rounded-2xl shadow-2xl w-full h-auto"
             />

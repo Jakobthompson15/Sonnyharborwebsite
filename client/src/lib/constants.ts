@@ -92,7 +92,7 @@ export const PRICING_TIERS = [
 export const FOUNDERS = [
   {
     name: "Ryan Kesler",
-    title: "Co-Founder & CEO",
+    title: "Co-Founder",
     image: "/IMG_8271_1750431931719.JPG",
     bio: "With over 15 years in digital marketing and technology solutions, Ryan brings strategic vision and industry expertise to drive innovation in the digital signage space. His passion for connecting brands with audiences through compelling visual experiences has shaped Sonny Harbor Media's customer-centric approach.",
     social: {
@@ -102,7 +102,7 @@ export const FOUNDERS = [
   },
   {
     name: "Chris",
-    title: "Co-Founder & CTO",
+    title: "Co-Founder",
     image: "/chris-photo.jpg",
     bio: "A technology innovator with deep expertise in hardware integration and software development, Chris ensures that Sonny Harbor Media delivers cutting-edge solutions that are both powerful and reliable. His technical leadership drives the company's commitment to excellence in every installation.",
     social: {

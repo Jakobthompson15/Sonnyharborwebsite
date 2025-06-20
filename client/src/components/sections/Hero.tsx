@@ -44,8 +44,8 @@ export default function Hero() {
           </div>
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600"
-              alt="Modern digital signage display in office"
+              src="@assets/image_1750429488402.png"
+              alt="Premium digital signage display showing luxury hotel content"
               className="rounded-2xl shadow-2xl w-full h-auto"
             />
             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg border border-primary-100">

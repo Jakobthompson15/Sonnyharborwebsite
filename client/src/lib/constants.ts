@@ -93,7 +93,7 @@ export const FOUNDERS = [
   {
     name: "Ryan Kesler",
     title: "Co-Founder & CEO",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+    image: "@assets/IMG_8271_1750431931719.JPG",
     bio: "With over 15 years in digital marketing and technology solutions, Ryan brings strategic vision and industry expertise to drive innovation in the digital signage space. His passion for connecting brands with audiences through compelling visual experiences has shaped Sonny Harbor Media's customer-centric approach.",
     social: {
       linkedin: "#",
@@ -117,19 +117,19 @@ export const PORTFOLIO_ITEMS = [
     title: "Premium Retail Chain",
     description: "Enhanced customer experience with interactive product displays across 12 locations.",
     metric: "+35% Engagement Rate",
-    image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400"
+    image: "@assets/image_1750429500362.png"
   },
   {
     title: "Corporate Event Center",
     description: "Massive video wall installation for high-impact presentations and conferences.",
     metric: "98% Client Satisfaction",
-    image: "https://images.unsplash.com/photo-1559223607-b4d0555ae227?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400"
+    image: "@assets/image_1750429475481.png"
   },
   {
     title: "Transportation Hub",
     description: "Comprehensive wayfinding and advertising network serving thousands daily.",
     metric: "50K+ Daily Views",
-    image: "https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400"
+    image: "@assets/image_1750429488402.png"
   }
 ];
 

@@ -9,9 +9,11 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 gold-gradient rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">SH</span>
-              </div>
+              <img 
+                src="@assets/Logos from Jakob Thompson_1750429186304.png" 
+                alt="Sonny Harbor Media Logo"
+                className="h-10 w-auto filter brightness-0 invert"
+              />
               <span className="font-display font-semibold text-xl">
                 {COMPANY_INFO.name}
               </span>

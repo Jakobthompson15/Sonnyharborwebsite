@@ -94,7 +94,7 @@ export const FOUNDERS = [
     name: "Ryan Kesler",
     title: "Co-Founder",
     image: "/IMG_8271_1750431931719.JPG",
-    bio: "With over 15 years in digital marketing and technology solutions, Ryan brings strategic vision and industry expertise to drive innovation in the digital signage space. His passion for connecting brands with audiences through compelling visual experiences has shaped Sonny Harbor Media's customer-centric approach.",
+    bio: "With 10+ years of experience in marketing, Ryan brings strategic vision and industry expertise to the digital signage space. His passion for connecting brands with audiences through compelling visual experiences drives innovation at Sonny Harbor Media. Ryan's customer-centric approach has shaped the company's commitment to delivering exceptional results.",
     social: {
       linkedin: "#",
       twitter: "#"
@@ -104,7 +104,7 @@ export const FOUNDERS = [
     name: "Chris",
     title: "Co-Founder",
     image: "/chris-photo.jpg",
-    bio: "A technology innovator with deep expertise in hardware integration and software development, Chris ensures that Sonny Harbor Media delivers cutting-edge solutions that are both powerful and reliable. His technical leadership drives the company's commitment to excellence in every installation.",
+    bio: "With 10+ years of experience in technology and digital solutions, Chris brings technical expertise and innovation to Sonny Harbor Media. His deep knowledge of hardware integration and software development ensures reliable, cutting-edge digital signage solutions. Chris's technical leadership drives the company's commitment to excellence in every installation.",
     social: {
       linkedin: "#",
       github: "#"

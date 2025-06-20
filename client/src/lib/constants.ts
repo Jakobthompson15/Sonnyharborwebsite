@@ -104,7 +104,7 @@ export const FOUNDERS = [
     name: "Chris",
     title: "Co-Founder",
     image: "/chris-photo.jpg",
-    bio: "With 10+ years of experience in technology and digital solutions, Chris brings technical expertise and innovation to Sonny Harbor Media. His deep knowledge of hardware integration and software development ensures reliable, cutting-edge digital signage solutions. Chris's technical leadership drives the company's commitment to excellence in every installation.",
+    bio: "With 10+ years of entrepreneurial experience and extensive expertise in experiential marketing, Chris brings innovative business strategies to Sonny Harbor Media. His deep understanding of creating memorable brand experiences helps clients connect with their audiences in meaningful ways. Chris's entrepreneurial vision drives the company's growth and strategic partnerships.",
     social: {
       linkedin: "#",
       github: "#"

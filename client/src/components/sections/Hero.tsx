@@ -11,7 +11,7 @@ export default function Hero() {
             <div className="space-y-6">
               <h1 className="font-display text-5xl lg:text-6xl font-bold text-primary-900 leading-tight">
                 Elevate Your{" "}
-                <span className="text-transparent bg-clip-text gold-gradient">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-orange-500">
                   Digital Presence
                 </span>
               </h1>
@@ -44,7 +44,7 @@ export default function Hero() {
           </div>
           <div className="relative">
             <img
-              src="@assets/image_1750429488402.png"
+              src="/attached_assets/image_1750429488402.png"
               alt="Premium digital signage display showing luxury hotel content"
               className="rounded-2xl shadow-2xl w-full h-auto"
             />

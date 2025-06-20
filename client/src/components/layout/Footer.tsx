@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <img 
-                src="@assets/Logos from Jakob Thompson_1750429186304.png" 
+                src="/attached_assets/Logos from Jakob Thompson_1750429186304.png" 
                 alt="Sonny Harbor Media Logo"
                 className="h-10 w-auto filter brightness-0 invert"
               />

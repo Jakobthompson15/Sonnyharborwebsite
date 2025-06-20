@@ -4,24 +4,24 @@ import { FOUNDERS } from "@/lib/constants";
 
 export default function Founders() {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-12 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center space-y-4 mb-16">
-          <h2 className="font-display text-4xl font-bold text-primary-900">Meet Our Founders</h2>
-          <p className="text-xl text-primary-600 max-w-3xl mx-auto">
+        <div className="text-center space-y-3 mb-10">
+          <h2 className="font-display text-3xl font-bold text-primary-900">Meet Our Founders</h2>
+          <p className="text-lg text-primary-600 max-w-2xl mx-auto">
             Visionary leaders with decades of combined experience in digital technology and business development.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {FOUNDERS.map((founder, index) => (
             <Card key={index} className="text-center border-0 shadow-none bg-transparent">
               <CardContent className="p-0 space-y-6">
                 <img
                   src={founder.image}
                   alt={`${founder.name}, ${founder.title}`}
-                  className="w-64 h-64 rounded-2xl mx-auto object-cover shadow-lg"
+                  className="w-48 h-48 rounded-2xl mx-auto object-cover shadow-lg"
                 />
-                <div className="space-y-4">
+                <div className="space-y-3">
                   <h3 className="font-display text-2xl font-semibold text-primary-900">
                     {founder.name}
                   </h3>

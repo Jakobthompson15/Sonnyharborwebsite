@@ -4,18 +4,18 @@ import { STATS } from "@/lib/constants";
 
 export default function Hero() {
   return (
-    <section className="pt-16 pb-20 bg-gradient-to-br from-primary-50 via-white to-primary-100 overflow-hidden">
+    <section className="pt-16 pb-12 bg-gradient-to-br from-primary-50 via-white to-primary-100 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
-          <div className="space-y-8">
-            <div className="space-y-6">
-              <h1 className="font-display text-5xl lg:text-6xl font-bold text-primary-900 leading-tight">
+        <div className="grid lg:grid-cols-2 gap-8 items-center min-h-[60vh]">
+          <div className="space-y-6">
+            <div className="space-y-4">
+              <h1 className="font-display text-4xl lg:text-5xl font-bold text-primary-900 leading-tight">
                 Elevate Your{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-orange-500">
                   Digital Presence
                 </span>
               </h1>
-              <p className="text-xl text-primary-600 leading-relaxed">
+              <p className="text-lg text-primary-600 leading-relaxed">
                 Transform spaces and captivate audiences with premium digital signage solutions that blend cutting-edge technology with sophisticated design.
               </p>
             </div>

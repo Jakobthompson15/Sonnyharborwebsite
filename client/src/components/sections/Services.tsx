@@ -16,22 +16,22 @@ const gradientMap = {
 
 export default function Services() {
   return (
-    <section className="py-20 bg-gradient-to-br from-primary-50 to-white">
+    <section className="py-12 bg-gradient-to-br from-primary-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center space-y-4 mb-16">
-          <h2 className="font-display text-4xl font-bold text-primary-900">Our Services</h2>
-          <p className="text-xl text-primary-600 max-w-3xl mx-auto">
+        <div className="text-center space-y-3 mb-10">
+          <h2 className="font-display text-3xl font-bold text-primary-900">Our Services</h2>
+          <p className="text-lg text-primary-600 max-w-2xl mx-auto">
             Comprehensive digital signage solutions tailored to elevate your business presence and engage your audience.
           </p>
         </div>
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-6">
           {SERVICES.map((service) => {
             const IconComponent = iconMap[service.icon as keyof typeof iconMap];
             const gradientClass = gradientMap[service.icon as keyof typeof gradientMap];
             
             return (
               <Card key={service.id} className="bg-white border border-primary-100 hover:shadow-xl transition-all duration-300">
-                <CardContent className="p-8 space-y-6">
+                <CardContent className="p-6 space-y-4">
                   <div className={`w-16 h-16 bg-gradient-to-r ${gradientClass} rounded-xl flex items-center justify-center`}>
                     <IconComponent className="text-white text-2xl w-8 h-8" />
                   </div>

@@ -30,7 +30,7 @@ export default function Header() {
           <Link href="/" className="flex items-center">
             <img 
               src="/Logos from Jakob Thompson_1750429186304.png" 
-              alt="Sonny Harbor Media Logo"
+              alt="Logo"
               className="h-16 w-auto"
             />
           </Link>

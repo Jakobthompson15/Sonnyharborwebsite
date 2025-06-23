@@ -26,16 +26,13 @@ export default function Header() {
   return (
     <nav className="bg-white/95 backdrop-blur-sm fixed w-full top-0 z-50 border-b border-primary-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          <Link href="/" className="flex items-center space-x-3">
+        <div className="flex justify-between items-center h-20">
+          <Link href="/" className="flex items-center">
             <img 
               src="/Logos from Jakob Thompson_1750429186304.png" 
               alt="Sonny Harbor Media Logo"
-              className="h-10 w-auto"
+              className="h-16 w-auto"
             />
-            <span className="font-display font-semibold text-xl text-primary-800">
-              {COMPANY_INFO.name}
-            </span>
           </Link>
 
           {/* Desktop Navigation */}

@@ -4,7 +4,7 @@ import { STATS } from "@/lib/constants";
 
 export default function Hero() {
   return (
-    <section className="pt-16 pb-12 bg-gradient-to-br from-primary-50 via-white to-primary-100 overflow-hidden">
+    <section className="pt-20 pb-12 bg-gradient-to-br from-primary-50 via-white to-primary-100 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 items-center min-h-[60vh]">
           <div className="space-y-6">

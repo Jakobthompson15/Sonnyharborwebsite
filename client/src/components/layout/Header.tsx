@@ -2,7 +2,13 @@ import { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu } from "lucide-react";
+import { 
+  DropdownMenu, 
+  DropdownMenuContent, 
+  DropdownMenuItem, 
+  DropdownMenuTrigger 
+} from "@/components/ui/dropdown-menu";
+import { Menu, ChevronDown } from "lucide-react";
 import { COMPANY_INFO } from "@/lib/constants";
 
 export default function Header() {
@@ -10,11 +16,16 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { href: "/", label: "Home" },
-    { href: "/about", label: "About" },
-    { href: "/services", label: "Services" },
-    { href: "/pricing", label: "Pricing" },
-    { href: "/portfolio", label: "Portfolio" },
+    { href: "/", label: "About" },
+    { href: "/portfolio", label: "Works" },
+    { href: "/contact", label: "Contact" },
+  ];
+
+  const serviceItems = [
+    { href: "/services", label: "All Services" },
+    { href: "/services/event-solutions", label: "Event Solutions" },
+    { href: "/services/public-ad-space", label: "Public Ad Space" },
+    { href: "/services/screen-hosting", label: "Screen Hosting" },
   ];
 
   const isActive = (href: string) => {
@@ -24,37 +35,53 @@ export default function Header() {
   };
 
   return (
-    <nav className="bg-white/95 backdrop-blur-sm fixed w-full top-0 z-50 border-b border-primary-100">
+    <nav className="bg-background fixed w-full top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="flex items-center">
             <img 
               src="/Logos from Jakob Thompson_1750429186304.png" 
-              alt="Logo"
-              className="h-16 w-auto"
+              alt="Sonny Harbor"
+              className="h-10 w-auto"
             />
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-12">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className={`transition-colors duration-200 font-medium ${
+                className={`transition-colors duration-200 font-medium text-base ${
                   isActive(item.href)
-                    ? "text-gold-500"
-                    : "text-primary-600 hover:text-gold-500"
+                    ? "text-foreground"
+                    : "text-muted-foreground hover:text-foreground"
                 }`}
               >
                 {item.label}
               </Link>
             ))}
-            <Link href="/contact">
-              <Button className="gold-gradient text-white hover:shadow-lg transition-all duration-200">
-                Contact
-              </Button>
-            </Link>
+            
+            {/* Services Dropdown */}
+            <DropdownMenu>
+              <DropdownMenuTrigger className={`flex items-center space-x-1 transition-colors duration-200 font-medium text-base ${
+                location.startsWith("/services")
+                  ? "text-foreground"
+                  : "text-muted-foreground hover:text-foreground"
+              }`}>
+                <span>Services</span>
+                <ChevronDown className="w-4 h-4" />
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="w-48">
+                {serviceItems.map((item) => (
+                  <DropdownMenuItem key={item.href} asChild>
+                    <Link href={item.href} className="w-full cursor-pointer">
+                      {item.label}
+                    </Link>
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
           </div>
 
           {/* Mobile Menu */}
@@ -73,19 +100,31 @@ export default function Header() {
                       href={item.href}
                       className={`text-lg font-medium transition-colors duration-200 ${
                         isActive(item.href)
-                          ? "text-gold-500"
-                          : "text-primary-600 hover:text-gold-500"
+                          ? "text-black"
+                          : "text-gray-600 hover:text-black"
                       }`}
                       onClick={() => setIsOpen(false)}
                     >
                       {item.label}
                     </Link>
                   ))}
-                  <Link href="/contact" onClick={() => setIsOpen(false)}>
-                    <Button className="gold-gradient text-white w-full mt-4">
-                      Contact
-                    </Button>
-                  </Link>
+                  
+                  {/* Mobile Services Section */}
+                  <div className="space-y-2">
+                    <div className="text-lg font-medium text-black">Services</div>
+                    <div className="pl-4 space-y-2">
+                      {serviceItems.map((item) => (
+                        <Link
+                          key={item.href}
+                          href={item.href}
+                          className="block text-base text-gray-600 hover:text-black transition-colors duration-200"
+                          onClick={() => setIsOpen(false)}
+                        >
+                          {item.label}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
                 </div>
               </SheetContent>
             </Sheet>

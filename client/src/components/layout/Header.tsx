@@ -42,7 +42,7 @@ export default function Header() {
             <img 
               src="/Logos from Jakob Thompson_1750429186304.png" 
               alt="Sonny Harbor"
-              className="h-10 w-auto"
+              className="h-16 w-auto"
             />
           </Link>
 

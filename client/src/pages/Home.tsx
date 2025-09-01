@@ -4,7 +4,7 @@ import Hero from "@/components/sections/Hero";
 import Mission from "@/components/sections/Mission";
 import Services from "@/components/sections/Services";
 import Founders from "@/components/sections/Founders";
-import LeadForm from "@/components/sections/LeadForm";
+import Portfolio from "@/components/sections/Portfolio";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
         <Mission />
         <Services />
         <Founders />
-        <LeadForm />
+        <Portfolio />
       </main>
       <Footer />
     </div>

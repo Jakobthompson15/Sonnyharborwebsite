@@ -38,7 +38,7 @@ export default function Services() {
               
               return (
                 <Link key={service.id} href={serviceRoute}>
-                  <Card className="bg-card border-0 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+                  <Card className="border-0 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 cursor-pointer" style={{ backgroundColor: '#FDFBF7' }}>
                     <CardContent className="p-8">
                       <div className="flex items-start space-x-6">
                         <div className="w-14 h-14 bg-gradient-to-br from-foreground to-foreground/80 rounded-lg flex items-center justify-center shadow-lg flex-shrink-0">

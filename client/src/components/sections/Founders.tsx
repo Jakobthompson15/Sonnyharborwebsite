@@ -4,7 +4,7 @@ import { FOUNDERS } from "@/lib/constants";
 
 export default function Founders() {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20" style={{ backgroundColor: '#FDFBF7' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-black">Meet Our Founders</h2>

@@ -64,7 +64,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="bg-white rounded-2xl p-8 text-primary-800">
+    <div className="rounded-2xl p-8 text-primary-800" style={{ backgroundColor: '#FDFBF7' }}>
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
           <div className="space-y-4">

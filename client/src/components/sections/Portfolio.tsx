@@ -13,7 +13,7 @@ export default function Portfolio() {
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {PORTFOLIO_ITEMS.map((item, index) => (
-            <Card key={index} className="bg-white overflow-hidden border border-gray-200 hover:border-gray-300 transition-all duration-200">
+            <Card key={index} className="overflow-hidden border border-gray-200 hover:border-gray-300 transition-all duration-200" style={{ backgroundColor: '#FDFBF7' }}>
               <img
                 src={item.image}
                 alt={item.title}
